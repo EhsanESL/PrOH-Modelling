@@ -3,7 +3,7 @@
 
 <head>
   <script src="assets/js/color-modes.js"></script>
-  <title>PrOH Modelling</title>
+  <title>ProH Modelling</title>
 
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,7 +28,7 @@
     
     <header>
       <div class="pro-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal text-body-emphasis">PrOH Modelling Games</h1>
+        <h1 class="display-4 fw-normal text-body-emphasis">ProH Modelling Games</h1>
         <p class="fs-5 text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
       </div>
     </header>
@@ -36,40 +36,41 @@
 
     <main>
       <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
               <h4 class="my-0 fw-normal">Game 1</h4>
             </div>
             <div class="card-body">
-              <h4 class="p-3 pb-md-4">Factory produce furniture </h4>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary" formtarget="_parent" onclick="redirectToGame1()">Get started</button>
+              <h4 class="p-3 pb-md-4">Win New Business</h4>
+              <button type="button" class="w-100 btn btn-lg btn-primary" onclick="redirectToGame1()">Get started</button>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
               <h4 class="my-0 fw-normal">Game 2</h4>
             </div>
             <div class="card-body">
-              <h4 class="p-3 pb-md-4">Win New Business</h4>
-              <button type="button" class="w-100 btn btn-lg btn-primary" onclick="redirectToGame2()">Get started</button>
+              <h4 class="p-3 pb-md-4">Factory produce furniture </h4>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary" formtarget="_parent" onclick="redirectToGame2()">Get started</button>
             </div>
           </div>
         </div>
+      
       </div>
   </div>
   </main>
   </div>
     <script>
-        function redirectToGame1() {
-            // Change the URL to the Game1 page
-            window.location.href = "Game1.html";
-        }
         function redirectToGame2() {
-            // Change the URL to the Game1 page
             window.location.href = "Game2.html";
+        }
+        function redirectToGame1() {
+            window.location.href = "Game1.html";
         }
         
     </script>
